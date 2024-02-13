@@ -7,6 +7,7 @@ import NavBar from './Pages/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Places from './Pages/Places/Places';
 import Error from './Pages/Error/Error';
+import CityInfo from './Pages/Cities/CityInfo';
 // import SignUp from './Pages/Auth/Components/SignUp';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path='/signup' element={<SignUp/>}/>  */}
             {/* <Route path='/register' element={<SignUp/>}/> */}
             <Route path='/errorpage' element={<Error/>}/>
+            <Route path='/cityinfo' element={<CityInfo/>}/>
 
 
           </Routes>

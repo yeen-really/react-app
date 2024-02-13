@@ -22,6 +22,9 @@ function NavBar() {
           <Link to="/errorpage" className="font-bold hover:text-lime py-2">
             404
           </Link>
+          <Link to="/cityinfo" className="font-bold hover:text-lime py-2">
+            Информация о городе
+          </Link>
         </div>
       </header>
     </>

@@ -41,6 +41,7 @@ function Places() {
         console.log(result);
       });
   };
+  
   const url =
     "http://api.openweathermap.org/data/2.5/air_pollution?lat=" +
     lat +
